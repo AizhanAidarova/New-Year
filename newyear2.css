@@ -97,6 +97,7 @@ body{
  }
 .left-top{
     position: relative;
+    width: 80px;
 }
 .logo{
     width: 140px;
