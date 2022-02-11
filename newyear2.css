@@ -87,13 +87,13 @@ body{
     margin-top: 60px; 
 }
 
-@media screen and (max-width: 767px){ 
+@media screen and (max-width: 390px){
  
 .right-top, .left-bottom, .music{ 
     display: none; 
  }  
 .title{ 
-    font-size: 52px; 
+    font-size: 42px;
  } 
 .text, .sign span{ 
     font-size: 16px; 
