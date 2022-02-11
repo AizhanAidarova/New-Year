@@ -114,8 +114,8 @@ body{
     width: 80px;
 }
 .title{
-    margin-top: 20px;
     font-size: 48px;
+    margin: 1px 20px;
  } 
 .text{
     font-size: 16px;
