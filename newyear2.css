@@ -92,12 +92,14 @@ body{
 .right-top, .left-bottom, .music{ 
     display: none; 
  }  
-.title{ 
-    font-size: 42px;
+.title{
+    margin-top: 20px;
+    font-size: 48px;
  } 
-.text, .sign span{ 
+.text, .sign span{
+
     font-size: 16px; 
- } 
+ }
 } 
 @media print{ 
  
