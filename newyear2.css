@@ -91,16 +91,25 @@ body{
  
 .right-top, .left-bottom, .music{ 
     display: none; 
- }  
+ }
+.logo{
+    width: 140px;
+}
+.left-top{
+    width: 80px;
+}
 .title{
     margin-top: 20px;
     font-size: 48px;
  } 
-.text, .sign span{
-
+.text{
     font-size: 16px;
     margin: 0 auto;
     width: 315px;
+ }
+ .sign span{
+     font-size: 16px;
+     margin: 0 auto;
  }
 } 
 @media print{ 
