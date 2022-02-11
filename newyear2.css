@@ -64,12 +64,14 @@ body{
     color: white; 
     text-align: center; 
     line-height: 21.83px;
-    font-family: 'Gilroy-Light'; 
+    font-family: 'Gilroy-Light';
+    margin: 0 auto;
 } 
 .sign{ 
     display: flex; 
     text-align: center; 
-    justify-content: center; 
+    justify-content: center;
+    margin-left: 70px;
   
 } 
 .sign span{ 
@@ -87,13 +89,23 @@ body{
     margin-top: 60px; 
 }
 
+
 @media screen and (max-width: 390px){
  
-.right-top, .left-bottom, .music{ 
+.right-top, .left-bottom {
     display: none; 
  }
 .logo{
     width: 140px;
+}
+.music{
+    position: relative;
+    top: -13px;
+    left: 226px;
+}
+.center{
+    width: 85px;
+    margin-bottom: -72px;
 }
 .left-top{
     width: 80px;
@@ -104,14 +116,15 @@ body{
  } 
 .text{
     font-size: 16px;
-    margin: 0 auto;
-    width: 315px;
+    width: 336px;
  }
  .sign span{
      font-size: 16px;
-     margin: 0 auto;
  }
-} 
+}
+.music{
+
+}
 @media print{ 
  
  .right-top, .left-bottom, .music, .center,.logo , .left-top { 
